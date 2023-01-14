@@ -1,0 +1,24 @@
+{
+  "name": "tested-temp-converter",
+  "version": "1.0.0",
+  "description": "A temperature converter between Kelvin, Celsius and Fahrenheit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusgferreira/tested-temp-converter.git"
+  },
+  "keywords": [],
+  "author": "viniciusgferreira <vinicius.gf@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusgferreira/tested-temp-converter/issues"
+  },
+  "homepage": "https://github.com/viniciusgferreira/tested-temp-converter#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "jest": "^29.3.1"
+  }
+}
