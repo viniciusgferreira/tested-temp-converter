@@ -13,4 +13,7 @@ describe('celsius to fahrenheit conversion', () => {
     expect(celsiusToFahrenheit(-5)).toBe(23);
   });
 
+  it('should 100 celsius(string) return 212 fahrenheit(number)', () => {
+    expect(celsiusToFahrenheit('100')).toBe(212);
+  });
 });
