@@ -1,5 +1,5 @@
 function celsiusToFahrenheit(celsius) {
-  return (celsius * 9 / 5) + 32;
+  return Number(((celsius * 9 / 5) + 32).toFixed(3));
 }
 
 module.exports = celsiusToFahrenheit;
