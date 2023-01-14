@@ -1,5 +1,5 @@
-function celsiusToFahreiheit(celsius) {
+function celsiusToFahrenheit(celsius) {
   return (celsius * 9 / 5) + 32;
 }
 
-module.exports = celsiusToFahreiheit;
+module.exports = celsiusToFahrenheit;
