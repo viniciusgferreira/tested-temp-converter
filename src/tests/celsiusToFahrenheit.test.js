@@ -1,4 +1,4 @@
-const celsiusToFahrenheit = require('../celsiusToFahrenheit');
+const celsiusToFahrenheit = require('../converter/celsiusToFahrenheit');
 
 describe('celsius to fahrenheit conversion', () => {
   it('should 100 celsius return 212 fahrenheit', () => {

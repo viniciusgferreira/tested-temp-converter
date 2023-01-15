@@ -1,4 +1,4 @@
-const kelvinToFahrenheit = require('../kelvinToFahrenheit');
+const kelvinToFahrenheit = require('../converter/kelvinToFahrenheit');
 
 describe('kelvin to fahrenheit conversion', () => {
   it('should 100 kelvin return -279.67 fahrenheit', () => {

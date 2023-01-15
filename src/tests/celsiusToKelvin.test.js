@@ -1,4 +1,4 @@
-const celsiusToKelvin = require('../celsiusToKelvin');
+const celsiusToKelvin = require('../converter/celsiusToKelvin');
 
 describe('celsius to kelvin conversion', () => {
   it('should 100 celsius return 373.15 kelvin', () => {
