@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Temperature Converter</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='../converter/celsiusToFahrenheit.js'></script>
+</head>
+
+<body>
+  <form>
+    <div class="row mb-3 row-user justify-content-center">
+      <label for="inputCelsius" class="col-1 col-form-label">Celsius</label>
+      <div class="col-3">
+        <input type="text" class="form-control" id="inputCelsius">
+      </div>
+    </div>
+
+    <div class="row mb-3 row-user justify-content-center">
+      <label for="inputFahrenheit" class="col-1 col-form-label">Fahrenheit</label>
+      <div class="col-3">
+        <input type="text" class="form-control" id="inputFahrenheit">
+      </div>
+    </div>
+
+    <div class="row mb-3 row-user justify-content-center">
+      <label for="inputKelvin" class="col-1 col-form-label">Kelvin</label>
+      <div class="col-3">
+        <input type="text" class="form-control" id="inputKelvin">
+      </div>
+    </div>
+
+    <div class="row mb-3 row-user justify-content-center">
+      <span class="col-1 col-form-label"></span>
+      <div class="d-grid col-3">
+        <input class="input-text btn btn-primary align-itens-center" type="submit" value="Convert">
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
