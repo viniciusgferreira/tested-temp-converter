@@ -26,6 +26,9 @@
     "semi": [
       "error",
       "always"
-    ]
+    ],
+    "no-undef": "off",
+    "no-undefined": "off",
+    "no-unused-vars": "off"
   }
 }
