@@ -24,28 +24,28 @@
     <div class="row mb-3 row-user justify-content-center">
       <label for="inputCelsius" class="col-1 col-form-label">Celsius</label>
       <div class="col-3">
-        <input type="text" class="form-control" id="inputCelsius">
+        <input type="text" class="form-control" id="inputCelsius" onkeyup="convert('c')">
       </div>
     </div>
 
     <div class="row mb-3 row-user justify-content-center">
       <label for="inputFahrenheit" class="col-1 col-form-label">Fahrenheit</label>
       <div class="col-3">
-        <input type="text" class="form-control" id="inputFahrenheit">
+        <input type="text" class="form-control" id="inputFahrenheit" onkeyup="convert('f')">
       </div>
     </div>
 
     <div class="row mb-3 row-user justify-content-center">
       <label for="inputKelvin" class="col-1 col-form-label">Kelvin</label>
       <div class="col-3">
-        <input type="text" class="form-control" id="inputKelvin">
+        <input type="text" class="form-control" id="inputKelvin" onkeyup="convert('k')">
       </div>
     </div>
 
     <div class="row mb-3 row-user justify-content-center">
       <span class="col-1 col-form-label"></span>
       <div class="d-grid col-3">
-        <input class="input-text btn btn-primary align-itens-center" type="button" value="Convert" onclick="convert()">
+        <input class="input-text btn btn-primary align-itens-center" type="button" value="Convert">
       </div>
     </div>
   </form>
