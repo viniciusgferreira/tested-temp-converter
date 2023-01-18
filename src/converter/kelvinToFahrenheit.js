@@ -3,4 +3,6 @@ function kelvinToFahrenheit(kelvin) {
   return Number(((kelvin * 9 / 5) - 459.67).toFixed(3));
 }
 
-module.exports = kelvinToFahrenheit;
+if (typeof module === 'object') {
+  module.exports = kelvinToFahrenheit;
+}

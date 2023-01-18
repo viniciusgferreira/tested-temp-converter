@@ -4,4 +4,6 @@ function fahrenheitToKelvin(fahrenheit) {
   //return Number((fahrenheit - 273.15).toFixed(3));
 }
 
-module.exports = fahrenheitToKelvin;
+if (typeof module === 'object') {
+  module.exports = fahrenheitToKelvin;
+}

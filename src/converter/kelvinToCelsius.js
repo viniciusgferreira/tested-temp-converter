@@ -3,4 +3,6 @@ function kelvinToCelsius(kelvin) {
   return Number((kelvin - 273.15).toFixed(3));
 }
 
-module.exports = kelvinToCelsius;
+if (typeof module === 'object') {
+  module.exports = kelvinToCelsius;
+}

@@ -2,5 +2,6 @@ function celsiusToKelvin(celsius) {
   celsius = Number(celsius);
   return (celsius + 273.15);
 }
-
-module.exports = celsiusToKelvin;
+if (typeof module === 'object') {
+  module.exports = celsiusToKelvin;
+}
